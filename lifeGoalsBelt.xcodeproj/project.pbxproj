@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		950032CA1E381FB900194E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950032C91E381FB900194E8C /* AppDelegate.swift */; };
-		950032CC1E381FB900194E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950032CB1E381FB900194E8C /* ViewController.swift */; };
+		950032CC1E381FB900194E8C /* LifeGoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950032CB1E381FB900194E8C /* LifeGoalsTableViewController.swift */; };
 		950032CF1E381FB900194E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950032CD1E381FB900194E8C /* Main.storyboard */; };
 		950032D21E381FB900194E8C /* lifeGoalsBelt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 950032D01E381FB900194E8C /* lifeGoalsBelt.xcdatamodeld */; };
 		950032D41E381FB900194E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950032D31E381FB900194E8C /* Assets.xcassets */; };
 		950032D71E381FB900194E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950032D51E381FB900194E8C /* LaunchScreen.storyboard */; };
 		950032E21E381FB900194E8C /* lifeGoalsBeltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950032E11E381FB900194E8C /* lifeGoalsBeltTests.swift */; };
 		950032ED1E381FBA00194E8C /* lifeGoalsBeltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950032EC1E381FBA00194E8C /* lifeGoalsBeltUITests.swift */; };
+		950032FB1E38236100194E8C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950032FA1E38236100194E8C /* SettingsViewController.swift */; };
+		950032FD1E3823B300194E8C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950032FC1E3823B300194E8C /* DetailsViewController.swift */; };
+		950032FF1E38263200194E8C /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950032FE1E38263200194E8C /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		950032C61E381FB900194E8C /* lifeGoalsBelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifeGoalsBelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		950032C91E381FB900194E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		950032CB1E381FB900194E8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		950032CB1E381FB900194E8C /* LifeGoalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGoalsTableViewController.swift; sourceTree = "<group>"; };
 		950032CE1E381FB900194E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		950032D11E381FB900194E8C /* lifeGoalsBelt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lifeGoalsBelt.xcdatamodel; sourceTree = "<group>"; };
 		950032D31E381FB900194E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		950032E81E381FBA00194E8C /* lifeGoalsBeltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lifeGoalsBeltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		950032EC1E381FBA00194E8C /* lifeGoalsBeltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lifeGoalsBeltUITests.swift; sourceTree = "<group>"; };
 		950032EE1E381FBA00194E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950032FA1E38236100194E8C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		950032FC1E3823B300194E8C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		950032FE1E38263200194E8C /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				950032C91E381FB900194E8C /* AppDelegate.swift */,
-				950032CB1E381FB900194E8C /* ViewController.swift */,
+				950032CB1E381FB900194E8C /* LifeGoalsTableViewController.swift */,
 				950032CD1E381FB900194E8C /* Main.storyboard */,
 				950032D31E381FB900194E8C /* Assets.xcassets */,
 				950032D51E381FB900194E8C /* LaunchScreen.storyboard */,
 				950032D81E381FB900194E8C /* Info.plist */,
 				950032D01E381FB900194E8C /* lifeGoalsBelt.xcdatamodeld */,
+				950032FA1E38236100194E8C /* SettingsViewController.swift */,
+				950032FC1E3823B300194E8C /* DetailsViewController.swift */,
+				950032FE1E38263200194E8C /* Protocols.swift */,
 			);
 			path = lifeGoalsBelt;
 			sourceTree = "<group>";
@@ -265,9 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950032CC1E381FB900194E8C /* ViewController.swift in Sources */,
+				950032CC1E381FB900194E8C /* LifeGoalsTableViewController.swift in Sources */,
 				950032D21E381FB900194E8C /* lifeGoalsBelt.xcdatamodeld in Sources */,
 				950032CA1E381FB900194E8C /* AppDelegate.swift in Sources */,
+				950032FF1E38263200194E8C /* Protocols.swift in Sources */,
+				950032FB1E38236100194E8C /* SettingsViewController.swift in Sources */,
+				950032FD1E3823B300194E8C /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
